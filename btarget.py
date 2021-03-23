@@ -24,7 +24,7 @@ except:
 	print('\n\tPlease install mechanize.\n')
 	sys.exit()
 
-print("""\n
+logo="""
 
 
 \033[1;96m---------------------Zalim💜Cloner---------------------
@@ -82,6 +82,7 @@ print("""\n
 
 ---------------------------Zalim------------------------------------------
 \n""")
+print logo
 file=open('passwords.txt','r')
 
 email=str(raw_input('Enter Email/Username : ').strip())
